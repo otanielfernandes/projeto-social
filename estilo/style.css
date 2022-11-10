@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+}
+
+body{
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 310px;
+    height: 627px;
+    background-image: url(../imagens/iPone12.png);
+    background-repeat: no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 13px;
+    left: 16px;
+    width: 278px;
+    height: 598px;
+
+}
